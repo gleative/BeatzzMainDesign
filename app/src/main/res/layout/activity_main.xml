@@ -6,30 +6,37 @@
     android:layout_height="match_parent"
     tools:context="com.example.gleative.spotifylayout.MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xD"
+        />
 
     <LinearLayout
         android:id="@+id/firstRow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintRight_toRightOf="parent"
+        android:paddingTop="150dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="parent"
-        android:paddingTop="150dp">
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="parent">
 
         <Button
             android:id="@+id/button1.1"
             android:layout_width="80dp"
-            android:layout_height="80dp"
-            />
+            android:layout_height="80dp" />
+
         <Button
             android:id="@+id/button1.2"
             android:layout_width="80dp"
             android:layout_height="80dp" />
+
         <Button
             android:id="@+id/button1.3"
             android:layout_width="80dp"
             android:layout_height="80dp" />
+
         <Button
             android:id="@+id/button1.4"
             android:layout_width="80dp"
